@@ -1,0 +1,48 @@
+
+.enlarge_dr-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 80vh;;
+    border: 5px solid #82B7DF;
+    position: absolute;
+    left: 15vw;
+    text-align: center;
+    z-index: 5;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 2rem;
+    background-color: #82B7DF;
+    border-radius: 1rem;
+    visibility: hidden;
+}
+.enlarge_dr-info > button {
+    border-radius: 1rem;
+    border: none;
+    width: 3rem;
+}
+.enlarge_dr-info > button > p {
+    color: black;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.btn {
+    border: none;
+    outline: none;
+}
+.imgover > .dr-img{
+    height: 40vh;
+}
+.contacting-us{
+    width: 70vw;
+    height: 40vh;
+    background-color: white;
+    
+    text-align: center;
+}
